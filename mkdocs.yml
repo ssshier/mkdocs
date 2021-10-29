@@ -17,6 +17,7 @@ copyright: Copyright &copy; 2017 - 2021 SsShier
 # Configuration
 theme:
   name: material
+  custom_dir: custom
 
   # Static files
   static_templates:
@@ -137,5 +138,5 @@ nav:
   - Blog:
     - blog/index.md
     - 2021:
-      - blog/2021/kubernets.md
       - blog/2021/Istio.md
+      - blog/2021/kubernets.md
