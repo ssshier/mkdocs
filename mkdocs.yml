@@ -1,0 +1,19 @@
+# Project information
+site_name: SsShier MkDocs
+site_url: https://ssshier.github.io/ssshier-mkdocs/
+site_author: SsShier
+site_description: >-
+  Create a branded static site from a set of Markdown files to host the
+  documentation of your Open Source or commercial project
+
+# Repository
+repo_name: ssshier/ssshier-mkdocs
+repo_url: https://github.com/ssshier/ssshier-mkdocs
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2017 - 2021 SsShier
+
+# Configuration
+theme:
+  name: material
