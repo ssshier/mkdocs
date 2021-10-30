@@ -139,4 +139,4 @@ nav:
     - blog/index.md
     - 2021:
       - blog/2021/Istio.md
-      - blog/2021/kubernets.md
+      - blog/2021/Kubernetes.md
