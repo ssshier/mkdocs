@@ -54,6 +54,8 @@ minikube start --memory=4096 --cpus=4 --driver=virtualbox --kubernetes-version v
 
 minikube start --memory=4096 --cpus=4 --driver=docker --kubernetes-version v1.21.5
 
+minikube start  --memory=4096 --cpus=4 --driver=hyperkit --kubernetes-version v1.21.5
+
 export HTTPS_PROXY=http://127.0.0.1:7890 HTTP_PROXY=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 
 minikube kubectl -- get pods -A
