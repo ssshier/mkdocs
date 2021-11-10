@@ -79,6 +79,8 @@ istioctl dashboard kiali
 
 # 自动注入 Sidecar
 kubectl label namespace default istio-injection=enabled --overwrite
+kubectl label namespace argocd istio-injection=enabled --overwrite
+kubectl label namespace dev istio-injection=enabled --overwrite
 kubectl get namespace -L istio-injection
 
 ```
