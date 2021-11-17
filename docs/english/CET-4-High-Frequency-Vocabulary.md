@@ -1,6 +1,4 @@
-# CET 4
-
-**英语四级高频词汇**
+# CET-4-High-Frequency-Vocabulary
 
 ```
 1. alter v. 改变，改动，变更
