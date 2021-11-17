@@ -138,8 +138,10 @@ nav:
   - Blog:
     - blog/index.md
     - 2021:
+      - blog/2021/CET-4.md
       - blog/2021/Knative.md
       - blog/2021/Kustomize.md
       - blog/2021/ArgoCD.md
       - blog/2021/Istio.md
       - blog/2021/Kubernetes.md
+s
