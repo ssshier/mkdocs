@@ -1,4 +1,4 @@
-# CET-4-QWERT-LEARNER
+# CET-4-Qwert-Learner
 
 
 ## A

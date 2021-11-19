@@ -13,7 +13,7 @@ search:
 
 # Blog
 
-## [CET-4-QWERT-LEARNER]
+## [CET-4-Qwert-Learner]
 
 
 <aside class="mdx-author" markdown>
@@ -32,12 +32,12 @@ search:
 ---
 
 
-### CET-4-QWERT-LEARNER
+### CET-4-Qwert-Learner
 
 
-[:octicons-arrow-right-24: Continue reading][CET-4-QWERT-LEARNER]
+[:octicons-arrow-right-24: Continue reading][CET-4-Qwert-Learner]
 
-  [CET-4-QWERT-LEARNER]: CET-4-QWERT-LEARNER.md
+  [CET-4-Qwert-Learner]: CET-4-Qwert-Learner.md
 
 
 ## [CET-4-High-Frequency-Vocabulary]

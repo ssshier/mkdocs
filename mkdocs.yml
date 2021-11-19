@@ -137,8 +137,8 @@ nav:
   - Home: index.md
   - English:
     - english/index.md
+    - english/CET-4-Qwert-Learner.md
     - english/CET-4-High-Frequency-Vocabulary.md
-    - english/CET-4-QWERT-LEARNER.md
   - Blog:
     - blog/index.md
     - 2021:

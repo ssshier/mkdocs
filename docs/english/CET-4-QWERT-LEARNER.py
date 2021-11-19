@@ -3405,8 +3405,8 @@ data = [
 
 data.sort(key=lambda x: x['name'].lower())
 
-with open('CET-4-QWERT-LEARNER.md', 'w', encoding='utf-8') as f:
-    f.write('# CET-4-QWERT-LEARNER\n\n')
+with open('CET-4-Qwert-Learner.md', 'w', encoding='utf-8') as f:
+    f.write('# CET-4-Qwert-Learner\n\n')
     last = None
     for item in data:
         cur = item['name'][0].lower()
