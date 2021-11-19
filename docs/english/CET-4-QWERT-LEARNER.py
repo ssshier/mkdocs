@@ -3413,5 +3413,5 @@ with open('CET-4-QWERT-LEARNER.md', 'w', encoding='utf-8') as f:
         if cur != last:
             last = cur
             f.write('\n## {}\n\n'.format(cur.upper()))
-        f.write(f"`{item['name']}`  **{item['trans'][0]}**  **US**: `{item['usphone']}` **UK**: `{item['ukphone']}`\n\n")
+        f.write(f"`{item['name']}` {item['trans'][0].replace(' ', '')} US:`{item['usphone']}` UK:`{item['ukphone']}`\n\n")
 
