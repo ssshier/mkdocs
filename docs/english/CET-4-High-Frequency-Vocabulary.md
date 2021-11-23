@@ -802,7 +802,7 @@
 
 `neglect`  vt.忽视，忽略
 
-`network`  n.网状物；广播网，电视网；网络50.tiden.潮汐；潮流
+`network`  n.网状物；广播网，电视网；网络
 
 `neutral`  a.中立的，中性的
 
@@ -1257,6 +1257,8 @@
 `theme`  n.主题
 
 `thrust`  v.挤，推，插
+
+`tiden` n.潮汐；潮流
 
 `tidy`  a.整洁的，整齐的
 
