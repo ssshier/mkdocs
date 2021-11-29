@@ -141,6 +141,8 @@ nav:
     - english/CET-4-High-Frequency-Vocabulary.md
   - Blog:
     - blog/index.md
+    - QA:
+      - blog/QA/docker.md
     - 2021:
       - blog/2021/Knative.md
       - blog/2021/Kustomize.md
