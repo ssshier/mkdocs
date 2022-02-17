@@ -1,14 +1,14 @@
 # Project information
 site_name: SsShier MkDocs
-site_url: https://ssshier.github.io/ssshier-mkdocs/
+site_url: https://ssshier.github.io/mkdocs/
 site_author: SsShier
 site_description: >-
   Create a branded static site from a set of Markdown files to host the
   documentation of your Open Source or commercial project
 
 # Repository
-repo_name: ssshier/ssshier-mkdocs
-repo_url: https://github.com/ssshier/ssshier-mkdocs
+repo_name: ssshier/mkdocs
+repo_url: https://github.com/ssshier/mkdocs
 edit_uri: ""
 
 # Copyright
@@ -135,15 +135,12 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - English:
-    - english/index.md
-    - english/CET-4-Qwert-Learner.md
-    - english/CET-4-High-Frequency-Vocabulary.md
   - Blog:
     - blog/index.md
-    - QA:
-      - blog/QA/docker.md
-      - blog/QA/scrcpy.md
+    - Wiki:
+      - blog/Wiki/buildkit.md
+      - blog/Wiki/docker.md
+      - blog/Wiki/scrcpy.md
     - 2021:
       - blog/2021/Knative.md
       - blog/2021/Kustomize.md
