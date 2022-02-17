@@ -135,15 +135,17 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Blog:
-    - blog/index.md
-    - Wiki:
-      - blog/Wiki/buildkit.md
-      - blog/Wiki/docker.md
-      - blog/Wiki/scrcpy.md
+  - Wiki:
+    - Wiki/index.md
+    - FAQ:
+      - Wiki/buildkit.md
+      - Wiki/docker.md
+      - Wiki/scrcpy.md
     - 2021:
-      - blog/2021/Knative.md
-      - blog/2021/Kustomize.md
-      - blog/2021/ArgoCD.md
-      - blog/2021/Istio.md
-      - blog/2021/Kubernetes.md
+      - Wiki/2021/Knative.md
+      - Wiki/2021/Kustomize.md
+      - Wiki/2021/ArgoCD.md
+      - Wiki/2021/Istio.md
+      - Wiki/2021/Kubernetes.md
+    - 2022:
+      - Wiki/2022/ELK.md
