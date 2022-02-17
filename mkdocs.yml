@@ -138,9 +138,9 @@ nav:
   - Wiki:
     - Wiki/index.md
     - FAQ:
-      - Wiki/buildkit.md
-      - Wiki/docker.md
-      - Wiki/scrcpy.md
+      - Wiki/FAQ/buildkit.md
+      - Wiki/FAQ/docker.md
+      - Wiki/FAQ/scrcpy.md
     - 2021:
       - Wiki/2021/Knative.md
       - Wiki/2021/Kustomize.md
