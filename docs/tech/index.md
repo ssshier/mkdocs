@@ -1,6 +1,6 @@
 # Tech
 
-This collection summarizes the knowledge of some common technology stacks.
+This collection will summarize some professional technical articles.
 
 :tada: Let's start.
 
