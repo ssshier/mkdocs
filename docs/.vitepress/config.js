@@ -2,8 +2,8 @@ import { version } from '../../package.json'
 
 
 export default {
-  title: "MarkdownDocument",
-  description: "Markdown Document",
+  title: "mkdocs",
+  description: "Tech & Algorithm",
   lastUpdated: true,
   cleanUrls: "without-subfolders",
 

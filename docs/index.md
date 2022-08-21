@@ -1,12 +1,12 @@
 ---
 layout: home
 
-title: MarkdownDocument
-titleTemplate: Markdown Document
+title: mkdocs
+titleTemplate: Tech & Algorithm
 
 hero:
-  name: MarkdownDocument
-  text: Summarize some technical documents.
+  name: mkdocs
+  text: Tech & Algorithm
   # tagline: Simple, Easy.
   actions:
     - theme: brand
