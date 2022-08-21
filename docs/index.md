@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: Add New Nav
-  details: Add knowledge & Others nav.
+    details: Add knowledge & Others nav.
   - title: Init Markdown Document
     details: Init project, add tech and algorithm files.
 ---
