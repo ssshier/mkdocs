@@ -2,6 +2,7 @@ import { version } from '../../package.json'
 
 
 export default {
+  base: "/mkdocs/",
   title: "mkdocs",
   description: "Tech & Algorithm",
   lastUpdated: true,
