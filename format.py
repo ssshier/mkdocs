@@ -12,6 +12,8 @@ def format(path: str):
         .replace("？", "\? ")
         .replace("（", " (")
         .replace("）", ")")
+        .replace("“", ' "')
+        .replace("”", '" ')
     )
 
     with open(path, "w", encoding="utf-8") as f:
