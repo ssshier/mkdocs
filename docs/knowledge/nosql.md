@@ -92,19 +92,19 @@ Bitmaps, HyperLogLogs, GEO, Streams
 
 ### 内存淘汰
 
-Redis 过期策略是: 定期删除+惰性删除
+Redis 过期策略是: 定期删除 + 惰性删除
 
-消极方法 (passive way), 在主键被访问时如果发现它已经失效, 那么就删除它
-主动方法 (active way), 定期从设置了失效时间的主键中选择一部分失效的主键删除
+- 消极方法 (passive way), 在主键被访问时如果发现它已经失效, 那么就删除它
+- 主动方法 (active way), 定期从设置了失效时间的主键中选择一部分失效的主键删除
 
 Redis 内存淘汰策略: 
 
-noeviction - 当内存使用达到阈值的时候, 所有引起申请内存的命令会报错. 这是 Redis 默认的策略
-allkeys-lru - 在主键空间中, 优先移除最近未使用的 key
-allkeys-random - 在主键空间中, 随机移除某个 key
-volatile-lru - 在设置了过期时间的键空间中, 优先移除最近未使用的 key
-volatile-random - 在设置了过期时间的键空间中, 随机移除某个 key
-volatile-ttl - 在设置了过期时间的键空间中, 具有更早过期时间的 key 优先移除
+- noeviction - 当内存使用达到阈值的时候, 所有引起申请内存的命令会报错. 这是 Redis 默认的策略
+- allkeys-lru - 在主键空间中, 优先移除最近未使用的 key
+- allkeys-random - 在主键空间中, 随机移除某个 key
+- volatile-lru - 在设置了过期时间的键空间中, 优先移除最近未使用的 key
+- volatile-random - 在设置了过期时间的键空间中, 随机移除某个 key
+- volatile-ttl - 在设置了过期时间的键空间中, 具有更早过期时间的 key 优先移除
 
 ### 持久化
 
