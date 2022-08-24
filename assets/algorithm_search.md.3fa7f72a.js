@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.b03798d8.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"algorithm/search.md","lastUpdated":1661259813000}'),r={name:"algorithm/search.md"};function s(o,c,n,p,d,i){return a(),t("div")}const l=e(r,[["render",s]]);export{m as __pageData,l as default};
