@@ -84,12 +84,22 @@ function nav() {
 function sidebarTech() {
   return [
     {
-      text: "Tech",
+      text: "About",
       collapsible: true,
       items: [
         {
           text: "About",
           link: "/tech/index",
+        },
+      ],
+    },
+    {
+      text: "Python",
+      collapsible: true,
+      items: [
+        {
+          text: "Faster Python with Taichi",
+          link: "/tech/python/faster-python-with-taichi",
         },
       ],
     },
@@ -99,13 +109,19 @@ function sidebarTech() {
 function sidebarAlgorithm() {
   return [
     {
-      text: "Algorithm",
+      text: "About",
       collapsible: true,
       items: [
         {
           text: "About",
           link: "/algorithm/index",
-        },
+        }
+      ],
+    },
+    {
+      text: "Algorithm",
+      collapsible: true,
+      items: [
         {
           text: "Core",
           link: "/algorithm/core",
@@ -122,13 +138,19 @@ function sidebarAlgorithm() {
 function sidebarKnowledge() {
   return [
     {
-      text: "Knowledge",
+      text: "About",
       collapsible: true,
       items: [
         {
           text: "About",
           link: "/knowledge/index",
-        },
+        }
+      ],
+    },
+    {
+      text: "Knowledge",
+      collapsible: true,
+      items: [
         {
           text: "Python",
           link: "/knowledge/python",
@@ -177,7 +199,7 @@ function sidebarKnowledge() {
 function sidebarOthers() {
   return [
     {
-      text: "Others",
+      text: "About",
       collapsible: true,
       items: [
         {
