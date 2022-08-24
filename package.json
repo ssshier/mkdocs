@@ -1,6 +1,6 @@
 {
   "name": "mkdocs",
-  "version": "0.0.1",
+  "version": "0.0.1-dev",
   "description": "Markdown Document",
   "main": "index.js",
   "scripts": {
