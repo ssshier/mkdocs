@@ -107,8 +107,12 @@ function sidebarAlgorithm() {
           link: "/algorithm/index",
         },
         {
-          text: "Search",
-          link: "/algorithm/search",
+          text: "Core",
+          link: "/algorithm/core",
+        },
+        {
+          text: "Sort",
+          link: "/algorithm/sort",
         }
       ],
     },
