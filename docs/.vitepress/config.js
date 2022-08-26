@@ -2,6 +2,7 @@ import { version } from '../../package.json'
 
 
 export default {
+  lang: "zh-CN",
   base: "/mkdocs/",
   title: "mkdocs",
   description: "Tech & Algorithm",
@@ -113,7 +114,7 @@ function sidebarAlgorithm() {
       collapsible: true,
       items: [
         {
-          text: "About",
+          text: "Index",
           link: "/algorithm/index",
         }
       ],
@@ -142,7 +143,7 @@ function sidebarKnowledge() {
       collapsible: true,
       items: [
         {
-          text: "About",
+          text: "Index",
           link: "/knowledge/index",
         }
       ],
@@ -151,6 +152,10 @@ function sidebarKnowledge() {
       text: "Knowledge",
       collapsible: true,
       items: [
+        {
+          text: "Computer Basics",
+          link: "/knowledge/computer-basics",
+        },
         {
           text: "Python",
           link: "/knowledge/python",
@@ -203,7 +208,7 @@ function sidebarOthers() {
       collapsible: true,
       items: [
         {
-          text: "About",
+          text: "Index",
           link: "/others/index",
         },
       ],
