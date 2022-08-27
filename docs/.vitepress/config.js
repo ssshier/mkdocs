@@ -15,6 +15,7 @@ export default {
     sidebar: {
       "/tech/": sidebarTech(),
       "/algorithm/": sidebarAlgorithm(),
+      "/course/": sidebarCourse(),
       "/knowledge/": sidebarKnowledge(),
       "/others/": sidebarOthers(),
     },
@@ -55,6 +56,11 @@ function nav() {
       text: "Algorithm",
       link: "/algorithm/index",
       activeMatch: "/algorithm/",
+    },
+    {
+      text: "Course",
+      link: "/course/index",
+      activeMatch: "/course/",
     },
     {
       text: "Knowledge",
@@ -131,6 +137,35 @@ function sidebarAlgorithm() {
           text: "Sort",
           link: "/algorithm/sort",
         }
+      ],
+    },
+  ];
+}
+
+function sidebarCourse() {
+  return [
+    {
+      text: "About",
+      collapsible: true,
+      items: [
+        {
+          text: "About",
+          link: "/course/index",
+        },
+      ],
+    },
+    {
+      text: "Python Data Analysis",
+      collapsible: true,
+      items: [
+        {
+          text: "Overview",
+          link: "/course/python-data-analysis/001-overview",
+        },
+        {
+          text: "Get Data",
+          link: "/course/python-data-analysis/002-get-data",
+        },
       ],
     },
   ];

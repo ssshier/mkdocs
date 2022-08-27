@@ -17,10 +17,6 @@ hero:
       link: https://gitee.com/ssshier/mkdocs
 
 features:
-  - title: Add Python Document
-    details: Add python related knowledge points.
-  - title: Add New Nav
-    details: Add knowledge & Others nav.
-  - title: Init Markdown Document
-    details: Init project, add tech and algorithm files.
+  - title: Add Course Nav
+    details: Record some course notes
 ---
