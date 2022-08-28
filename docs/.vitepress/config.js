@@ -155,16 +155,28 @@ function sidebarCourse() {
       ],
     },
     {
-      text: "Python Data Analysis",
+      text: "Data Analysis",
       collapsible: true,
       items: [
         {
           text: "Overview",
-          link: "/course/python-data-analysis/001-overview",
+          link: "/course/data-analysis/001-overview",
         },
         {
-          text: "Get Data",
-          link: "/course/python-data-analysis/002-get-data",
+          text: "Excel",
+          link: "/course/data-analysis/002-excel",
+        },
+        {
+          text: "BI",
+          link: "/course/data-analysis/003-bi",
+        },
+        {
+          text: "SQL",
+          link: "/course/data-analysis/004-sql",
+        },
+        {
+          text: "Python",
+          link: "/course/data-analysis/005-python",
         },
       ],
     },
