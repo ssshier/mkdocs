@@ -95,7 +95,7 @@ function sidebarTech() {
       collapsible: true,
       items: [
         {
-          text: "About",
+          text: "Index",
           link: "/tech/index",
         },
       ],
@@ -149,7 +149,7 @@ function sidebarCourse() {
       collapsible: true,
       items: [
         {
-          text: "About",
+          text: "Index",
           link: "/course/index",
         },
       ],
