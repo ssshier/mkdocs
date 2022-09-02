@@ -330,7 +330,7 @@ ACID — 数据库事务正确执行的四个基本要素:
 - **隔离性 (Isolation)**
 - **持久性 (Durability)**
 
-**一个支持事务 (Transaction)中的数据库系统, 必需要具有这四种特性, 否则在事务过程 (Transaction processing)当中无法保证数据的正确性, 交易过程极可能达不到交易. **
+一个支持事务 (Transaction)中的数据库系统, 必需要具有这四种特性, 否则在事务过程 (Transaction processing)当中无法保证数据的正确性, 交易过程极可能达不到交易
 
 
 ### 并发一致性问题
