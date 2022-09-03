@@ -167,8 +167,8 @@ function sidebarCourse() {
           link: "/course/data-analysis/002-excel",
         },
         {
-          text: "BI",
-          link: "/course/data-analysis/003-bi",
+          text: "Tableau",
+          link: "/course/data-analysis/003-tableau",
         },
         {
           text: "SQL",
