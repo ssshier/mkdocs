@@ -118,6 +118,4 @@
 
 ### 报表成功展示
 
-**Excel周报**
-
-![Excel周报](../../assets/images/Excel%E5%91%A8%E6%8A%A5%E6%A0%B7%E4%BE%8B.png)
+![excel-weekly-report](../../assets/images/excel-weekly-report.png)

@@ -60,6 +60,6 @@
 
 可视化案例
 
-## 成果展示
+## 仪表盘成果展示
 
-![Tableau Daily](../../assets/images/tableau-daily.png)
+![tableau-daily](../../assets/images/tableau-daily.png)
