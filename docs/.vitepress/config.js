@@ -3,7 +3,7 @@ import { version } from '../../package.json'
 
 export default {
   lang: "zh-CN",
-  base: "/",
+  base: "/mkdocs",
   title: "mkdocs",
   description: "Tech & Algorithm",
   lastUpdated: true,
