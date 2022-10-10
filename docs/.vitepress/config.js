@@ -204,6 +204,10 @@ function sidebarKnowledge() {
           link: "/knowledge/computer-basics",
         },
         {
+          text: "Web",
+          link: "/knowledge/web",
+        },
+        {
           text: "Python",
           link: "/knowledge/python",
         },
