@@ -240,20 +240,20 @@ function sidebarKnowledge() {
           link: "/knowledge/docker",
         },
         {
-          text: "Cloud Native",
-          link: "/knowledge/cloud-native",
-        },
-        {
-          text: "Big Data",
-          link: "/knowledge/big-data",
-        },
-        {
           text: "ELK",
           link: "/knowledge/elk",
         },
         {
           text: "GraphQL",
           link: "/knowledge/graphql",
+        },
+        {
+          text: "Cloud Native",
+          link: "/knowledge/cloud-native",
+        },
+        {
+          text: "Big Data",
+          link: "/knowledge/big-data",
         },
       ],
     },

@@ -144,6 +144,14 @@ class TreeNode:
         self.right = None
 ```
 
+#### B树
+
+![b-tree](../assets/images/b-tree.png)
+
+#### B+树
+
+![b+-tree](../assets/images/b+-tree.png)
+
 ### 图
 
 图由顶点和边组成
