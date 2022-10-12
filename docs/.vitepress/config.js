@@ -247,6 +247,14 @@ function sidebarKnowledge() {
           text: "Big Data",
           link: "/knowledge/big-data",
         },
+        {
+          text: "ELK",
+          link: "/knowledge/elk",
+        },
+        {
+          text: "GraphQL",
+          link: "/knowledge/graphql",
+        },
       ],
     },
   ];
