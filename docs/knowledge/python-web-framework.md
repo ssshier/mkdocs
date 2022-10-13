@@ -118,7 +118,59 @@ __用例__
 
 ## Django
 
+### Django中间件的5个方法
+
+.process_request : 请求进来时,权限认证
+.process_view : 路由匹配之后,能够得到视图函数
+.process_exception : 异常时执行
+.process_template_responseprocess : 模板渲染时执行
+.process_response : 请求有响应时执行
+
+### filter和exclude的区别
+
+两者取到的值都是QuerySet对象, filter选择满足条件的, exclude排除满足条件的
+
+### Q & F
+
+**Q对象查询**
+
+Q 对象把关键字参数封装在一起, 并传递给 filter, exclude, get 等查询的方法. 多个 Q 对象之间可以使用&或者|运算符组合 (符号分别表示与和或的关系), 从而产生一个新的 Q 对象. 当然也可以使用~ (非)运算符来取反, 从而实现NOT查询
+
+**F对象查询**
+
+F对象主要用于模型类的 A 字段属性与 B 字段属性两者的比较, 即操作数据库中某一列的值. 通常是对数据库中的字段值在不获取的情况下进行操作
+
 ## Flask
+
+### Flask框架依赖组件
+
+- Route(路由)
+- Templates(模板)
+- Models(orm模型)
+- Blueprint(蓝图)  将不同的功能模块化
+- Jinja2模板引擎
+
+### Flask中g的作用
+
+g: global
+
+g对象是专门用来来保存用户数据的
+
+g对象在一次请求中的所有的代码的地方, 都是可以使用的
+
+### Flask中上下文管理主要是涉及的类
+
+RequestContext 封装进来的请求
+
+AppContext 封装app_context
+
+LocalStack 将local对象中的数据维护成一个栈
+
+Local 保存请求上下文对象和app上下文对象
+
+### WTForms组件的作用
+
+WTForms是一个支持多个web框架的form组件, 主要用于对用户请求数据进行验证
 
 ## Tornado
 
