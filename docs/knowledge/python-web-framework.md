@@ -118,6 +118,29 @@ __用例__
 
 ## Django
 
+### Django REST framework
+
+#### 序列化反序列化相关参数
+
+```
+1.通用参数
+read_only = True: 当前字段只能进行序列化输出 (用于不需要反序列化输入的字段)
+write_only = True: 当前字段只能进行反序列化输入, 不进行序列化输出
+required = True: 在反序列化时是必填字段, 默认为True
+allow_null = False: 当前字段是否允许传None, 默认是False (必填字段False, 反之则True)
+allow_blank = False: 当前字段是否运行为空, 默认是False (必填字段False, 反之则True)
+default = xx: 指定在反序列化时, 当前字段没值时所使用的默认值
+validators=校验器: 当前字段所使用的校验器 (下面介绍常用的)
+error_messages: 包含错误key-value的字段 (下面会举例)
+label: 当前字段在前端的api页面中所显示的字段名称
+2.选项参数
+max_length: 字段最大长度
+min_length: 字段最小长度
+trim_whitespace: 是否截断空字符串
+max_value: 字段最大值
+min_value: 字段最小值
+```
+
 ### Django中间件的5个方法
 
 .process_request : 请求进来时,权限认证
