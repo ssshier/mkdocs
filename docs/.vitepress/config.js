@@ -228,8 +228,12 @@ function sidebarKnowledge() {
           link: "/knowledge/sql",
         },
         {
-          text: "NoSQL",
-          link: "/knowledge/nosql",
+          text: "Redis",
+          link: "/knowledge/redis",
+        },
+        {
+          text: "MongoDB",
+          link: "/knowledge/mongodb",
         },
         {
           text: "Middleware",
