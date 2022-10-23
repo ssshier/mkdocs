@@ -152,3 +152,11 @@ jpype.JClass(jc, loader=None, initialize=True)
 ::: tip Python for Excel
 [https://www.python-excel.org/](https://www.python-excel.org/)
 :::
+
+## SLY
+
+SLY是通常用于编写解析器和编译器的lex和yacc工具的100%Python实现. 解析基于许多 yacc 工具使用的相同 LALR (1) 算法
+
+::: tip SLY
+[https://sly.readthedocs.io/en/latest/](https://sly.readthedocs.io/en/latest/)
+:::
